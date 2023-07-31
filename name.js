@@ -1,0 +1,1 @@
+document.getElementById("name_user").innerHTML=`Welcome ${localStorage.getItem("name")}`

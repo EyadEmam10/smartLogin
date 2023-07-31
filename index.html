@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+</head>
+<body>
+    
+    <div id="font" class="container-fluid">
+        <div class="row">
+            <div id="container" class="col-md-12 text-center ">
+                <div id="box" class=" mt-5 p-5 ">
+                    <h1 style="font-family:sans-serif">Smart Login System</h1> 
+                     <input id="email" class=" mt-3 " style="color: white;" placeholder="Enter Your email">
+                     <input id="pass" type="password" class=" mt-3" placeholder="Enter Your password">
+                     <p id="para" class="d-none mt-1 text-danger" > All input is required</p>
+                     <p id="para2" class="d-none mt-1 text-danger" >incorrect email or password</p>
+                     <p id="para3" class="d-none mt-1 text-danger" >This Email is Taken Before</p>
+
+                     <button id="login" onclick="login()" class="mt-4">Login</button>    
+                     <p id="para1" class="mt-4">Don’t have an account?<a href="file:///D:/course%20front%20end%20assgiment/Smart%20Login/index2.html"  id="link"> Sign Up</a> </p>                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

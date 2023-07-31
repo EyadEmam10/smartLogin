@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#font{  
+    font-family:sans-serif;
+}
+#container{
+    background-color:#24353f;
+    color: #17a2b8;
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+#box{
+    margin: auto;
+    width: 60%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#name{
+    padding: 6px;
+    color: white;
+    width: 90%;
+    background-color: #24353f;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-radius: 0.25rem;
+}
+#email{
+    padding: 6px;
+    color: white;
+    width: 90%;
+    background-color: #24353f;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-radius: 0.25rem;
+}
+#pass{
+    padding: 6px;
+    color: white;
+    width: 90%;
+    background-color: #24353f;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-radius: 0.25rem;
+}
+#login{
+    background-color: #24353f;
+    color: rgb(23, 162, 184);
+    width: 90%;
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(23, 162, 184);
+    border-radius: 0.25rem;
+    transition: 0.25s;
+}
+#login:hover{
+    background-color:rgb(23, 162, 184) ;
+    color: white;
+    transition-duration: 0.25s;
+}
+#signup{
+    background-color: #24353f;
+    color: rgb(23, 162, 184);
+    width: 90%;
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(23, 162, 184);
+    border-radius: 0.25rem;
+    transition: 0.25s;
+}
+#signup:hover{
+    background-color:rgb(23, 162, 184) ;
+    color: white;
+    transition-duration: 0.25s;
+}
+#para1{
+    color: white;
+    font-family: sans-serif;
+}
+#link{
+    text-decoration: none;
+    color:white;
+}
+#link:hover{
+    border-bottom:solid white 2px;
+}
